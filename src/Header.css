@@ -1,0 +1,74 @@
+.header {
+    background-color: #2874F0;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+}
+
+.header_logo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16rem;
+}
+
+.header_logo_flipkart {
+    width: 100px;
+}
+
+.header_logo > a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_logo > a:hover {
+    text-decoration: underline;
+}
+
+.header_logo > a > span {
+    color: yellow;
+}
+
+.header_searchBox {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 35px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 1rem;
+}
+
+.header_searchBox_input {
+    height: 20px;
+    border: none;
+    display: flex;
+    flex: 1;
+}
+
+.header_searchBox_icon {
+    color: #2874F0;
+}
+
+.header_login {
+    background-color: white;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.header_more {
+    color: white;
+    margin: 1rem;
+}
+
+.header_cart {
+    color: white;
+    display: flex;
+    margin: 1rem;
+    padding-right: 16rem;
+}
